@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    flex: right;
+    background-color: aqua;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border:3px solid blue;
+ 
+    
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    
+}
+
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding : 50px;
+    font-family:sans-serif;
+    margin-left: 20px;
+  
+    
+
+
+}
+.navbar ul li a:hover{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    padding : 50px;
+    font-family:sans-serif;
+    transition: 0.5s; 
+    
+    
+
+
+}
+nav ul li:hover{
+    background-color:white;
+    border-radius: 55px;
+    transition: 0.5s;
+    
+   
+}
+
+
+
